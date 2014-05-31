@@ -24,24 +24,4 @@ var spinner = new Spinner(opts).spin(target);
       slidertransition = 'fade',                       // set the Slider transition - fade or scrollHorz (use scrollHorz with the scroller file provided )
       //slidertransition = 'scrollHorz',               // set the Slider transition - fade or scrollHorz (use scrollHorz with the scroller file provided )
       sliderspeed = '3000',                            // set the Slider speed
-      slidertimeout = '6000',                          // set the Slider timeout
-
-
-//****** Set the twitter options
-      twitter = 'envato',                              // set the twitter acount name
-      avatarsize = 18,                                 // set the twitter avatar size
-      countno = 20,                                    // set the number of tweets to show in the scroller
-      loadingtext = "loading ...",                     // set the twitter loading text
-      scrolldirection = -1,                            // set the twitter list scroll direction: -1 up, 1 down
-      tweetduration = 6000,                            // set the tweets duration
-      scrollspeed = 800,                               // set the twitter list scroll speed
-
-      
-//****** Set the clock colors
-      strokeColor = 'rgba(38, 114, 236, 1)',           // set the stroke (blue) color
-      animationColor = 'rgba(255, 255, 255, 0.83)',    // set the animation color (white)
-  
-  
-//****** Set the contact form dynamic texts
-      contact_sent = "<p class='message'>Thanks! Your request has been sent.</p>",
-      subscribe_sent = "<p class='message'>Thanks! Your email address has been added to our mailing list.</p>"
+      slidertimeout = '6000';                          // set the Slider timeout
